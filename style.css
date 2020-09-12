@@ -1,0 +1,99 @@
+.container {
+	color: 334CFF;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+
+
+}
+.zone {
+    cursor:pointer;
+    /* display:inline-block;*/
+    text-align: center;
+    font-size:10em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {  
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 30px;
+	-moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 30px;
+	-o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 30px;
+	box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 30px;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+
+.green{
+
+    background: #56B870;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956));
+}
+
+
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+
+
+.red{
+    background: #C655BE; 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404));
+
+}
+
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+
+
+.yellow{
+
+    background: #F3AAAA; 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04));
+}
+
+
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+
+.blue{
+
+    background: #7abcff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee));
+
+}
+
+
+
+/***********************************************************************
+ *  Purple Background
+ **********************************************************************/
+
+
+.purple {
+    background: #A88BEB;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A88BEB), color-stop(44%,#F1A7F1), color-stop(100%,#F8CEEC));
+}
+
+
+
+/***********************************************************************
+ *  Brown Background
+ **********************************************************************/
+
+
+.brown {
+
+    background: #f6e6b4;
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6e6b4), color-stop(100%,#ed9017));
+ }
